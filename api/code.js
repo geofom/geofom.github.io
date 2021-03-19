@@ -1,6 +1,6 @@
 const request = new XMLHttpRequest()
 
-request.open("GET", "https://binaryjazz.us/wp-json/genrenator/v1/story/")
+request.open("GET", "https://binaryjazz.us/wp-json/genrenator/v1/story/", true)
 
 request.onload = function(){
     var data = JSON.parse(this.response)
